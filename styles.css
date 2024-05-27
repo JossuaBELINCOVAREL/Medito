@@ -21,11 +21,11 @@ body, html {
 
 .tree {
     position: absolute;
-    top: 50%;
+    bottom: 10px; /* Placer l'arbre en bas */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     cursor: pointer;
-    max-width: 10%;
+    max-width: 25%; /* Augmenter la taille de l'arbre à 25% de la largeur de l'écran */
 }
 
 .fruit {
