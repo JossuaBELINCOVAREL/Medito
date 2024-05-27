@@ -46,8 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Fonction pour mettre à jour le compteur
+/* Fonction pour mettre à jour le compteur
 function updateCounter() {
     const counterElement = document.getElementById('counter');
     counterElement.textContent = counter;
 }
+*/
